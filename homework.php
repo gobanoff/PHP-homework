@@ -44,8 +44,7 @@ $tv = new Televizorius('Samsung');
 $tv->garsas=76;
 $tv->changeChan(8);
 
-
-echo $tv->info();
+echo $tv->info() . '<br />';
 
 
 /*2 UZDUOTIS*/ 
