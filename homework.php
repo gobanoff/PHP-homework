@@ -3,7 +3,7 @@
 class Televizorius {
     private $gamintojas;
     private $kanalas;
-    private $garsas;
+    public $garsas;
 
     public function __construct($gamintojas) {
         $this->gamintojas = $gamintojas;
@@ -41,7 +41,7 @@ class Televizorius {
 }
 
 $tv = new Televizorius('Samsung');
-$tv->didintiGarsa();
+$tv->garsas=76;
 $tv->changeChan(8);
 
 
