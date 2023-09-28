@@ -45,7 +45,7 @@ $tv->didintiGarsa();
 $tv->changeChan(8);
 
 
-echo $televizorius->info();
+echo $tv->info();
 
 
 /*2 UZDUOTIS*/ 
